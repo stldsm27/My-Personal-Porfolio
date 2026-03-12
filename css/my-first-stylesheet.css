@@ -141,7 +141,7 @@ nav ul li a {
 
 nav ul li a:hover {
   color: #e0d5d9;        
-  background-color: #8B0000; 
+  background-color: #C8B282; 
   text-decoration: underline;
   transition: background-color 0.3s, color 0.3s;
 }
