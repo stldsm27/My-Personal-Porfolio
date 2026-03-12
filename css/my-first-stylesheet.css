@@ -267,6 +267,10 @@ table a:visited {
   color: #104730
 }
 
+table a:hover {
+  background-color: #e8e3df;
+}
+
 th,
 td {
   border: 3px solid #417154;
