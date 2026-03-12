@@ -251,12 +251,12 @@ table {
   width: 100%;
   border-collapse: collapse;
   margin-bottom: 28px;
+  transition: text-decoration 0.3s, background-color 0.3s, color 0.3s;
 
 }
 
 table a:link {
   color: #104730;
-  transition: text-decoration 0.3s, background-color 0.3s, color 0.3s;
 }
 
 table a:visited {
