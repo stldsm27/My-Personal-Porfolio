@@ -251,8 +251,12 @@ table {
   width: 100%;
   border-collapse: collapse;
   margin-bottom: 28px;
-  transition: background-color 0.3s, color 0.3s;
+  
 
+}
+
+table a {
+  transition: background-color 0.3s, color 0.3s;
 }
 
 table a:link {
