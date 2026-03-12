@@ -139,6 +139,13 @@ nav ul li a {
 }
 
 
+nav ul li a:hover {
+  color: #e0d5d9;        
+  background-color: #417154; 
+  text-decoration: underline;
+  transition: background-color 0.3s, color 0.3s;
+}
+
 nav li.selected {
   color: #83b48c;
 }
