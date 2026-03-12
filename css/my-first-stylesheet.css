@@ -294,7 +294,9 @@ a:visited {
 
 a:hover {
   text-decoration: underline;
-  color: #e8e3df
+  background-color: #e8e3df;
+  color: #104730
+  text-decoration: underline;
 }
 
 a:active {
