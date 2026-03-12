@@ -11,5 +11,5 @@ Open `index.html` in a browser to view the website.
 - Contact information page
 
 ## Links
-- GitHub Repository: [Your GitHub Repo Link]
-- Live Demo: [Your Live Site Link]
+- GitHub Repository: (https://github.com/stldsm27/My-Personal-Porfolio)
+- Live Demo: ()
