@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Playing a Concert</title>
+  <link type="text/css" rel="stylesheet" href="css/my-first-stylesheet.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<header>
+  <nav>
+    <h1>SARAH LEDESMA</h1>
+    <p class="tagline">My Hobbies | Interests</p>
+    <p class="add_tagline">Activities I enjoy during my free time</p>
+  </nav>
+</header>
+
+
+<body>
+  <nav>
+    <ul>
+      <li><a href="index.html"> About Me</a></li>
+      <li class="selected">My Hobbies and Interests</li>
+      <li><a href="contact-info.html"> My Contact Information</a></li>
+    </ul>
+  </nav>
+
+
+  <div class="hobby-container">
+    <div class="hobby">
+      <h2>Cooking</h2>
+
+      <img class="medium" src="images/ny.jpeg" alt="Meals I cooked" />
+
+      <p>I enjoy cooking for my family, especially since it's easy to prepare a delicious meal
+        without needing too many
+        tools.</p>
+      <p>Since there are so many recipes available on the internet, I like to experiment and add my own personality to
+        the dishes I make by tweaking the recipes to suit my taste.</p>
+      <p>Cooking is practical, fun, and gives me immediate satisfaction when everyone enjoys the meal. </p>
+    </div>
+
+
+
+    <div class="hobby">
+      <h2>Baking</h2>
+
+      <img class="medium" src="images/baked.jpg" alt="Cookies I baked" />
+
+      <p>Baking is a bit more demanding because it requires careful measurements and several tools that need to be
+        cleaned afterwards.</p>
+      <p>However, though it's tiring sometimes, it’s truly satisfying to create a beautifully baked and delicious good.
+
+      <p>I love the precision and
+        patience it requires, and seeing a perfect cake or pastry makes it all worth it.</p>
+    </div>
+
+
+
+    <div class="hobby">
+      <h2>Reading Novels</h2>
+
+      <img class="medium" src="images/kindle.jpeg" alt="Cookies I baked" />
+
+      <p>I love reading novels in my free time. </p>
+      <p>I usually use my Kindle, which is convenient and helps me avoid allergies
+        from the smell of physical books while still enjoying a good story.</p>
+      <p>Reading allows me to relax and explore new
+        worlds without leaving home.</p>
+
+    </div>
+
+    <article class="funfact">
+      <div class="funfact-content">
+        <div class="funfact-text">
+          <h1>FUN FACT!</h1>
+          <p>I used to bake simply as a hobby because I enjoyed creating sweet treats for my family.</p>
+          <p>Over time, my family and friends loved my baked goods so much that they encouraged me to sell them
+            occasionally.</p>
+          <p>Baking is precise and a bit tiring, but it’s truly satisfying to create something delicious!</p>
+          <p class="click">Click on the image to see more photos of my baked goods :)</p>
+        </div>
+
+        <div class="funfact-image">
+          <img id="display-image" src="images/baked1.jpeg" onclick="nextImage()" alt="Baked Goods">
+          <script>
+            const images = [
+              "images/baked1.jpeg",
+              "images/baked2.jpg",
+              "images/baked3.jpeg",
+              "images/baked4.jpeg",
+              "images/smores.jpeg"
+            ];
+
+            let currentIndex = 0;
+
+            function nextImage() {
+              currentIndex++;
+              if (currentIndex >= images.length) currentIndex = 0;
+              document.getElementById("display-image").src = images[currentIndex];
+            }
+          </script>
+        </div>
+      </div>
+    </article>
+
+</html>

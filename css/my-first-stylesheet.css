@@ -1,0 +1,455 @@
+/* = GENERAL STYLES =*/
+body {
+  background-color: #A67B5C;
+  border: 2px solid rgb(207, 193, 193);
+  font-family: sans-serif;
+  border-radius: 16px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1024px;
+  min-width: 256px;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  padding-left: 24px;
+  padding-right: 24px;
+}
+
+html {
+  background: radial-gradient(circle, rgb(200, 178, 130), rgb(208, 197, 154) 50%, rgb(109, 151, 117) 50%, rgb(65, 113, 84));
+  background-size: 2px 2px;
+}
+
+header {
+  background-color: #9e7253;
+  border: 2px solid rgb(207, 193, 193);
+  text-align: left;
+  border-radius: 8px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  padding-left: 2px;
+  padding-right: 2px;
+  margin-bottom: 25px;
+
+}
+
+article {
+  background-color: #6D9775;
+  border-radius: 16px;
+  text-align: left;
+  font-size: smaller;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+  margin-top: auto;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+section {
+  background-color: #C8B282;
+  border-radius: 16px;
+  min-height: auto;
+  padding: 10px;
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+
+aside {
+  background-color: #417154;
+  border-radius: 16px;
+  margin-bottom: 24px;
+  border-radius: 16px;
+  min-height: 320px;
+  padding-left: 24px;
+  padding-right: 24px;
+  margin-left: 20px;
+  margin-right: 20px;
+  text-align: center;
+}
+
+footer {
+  background-color: #104730;
+  color: #f1eeeb;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 10px 15px;
+  width: 100%;
+  box-sizing: border-box;
+  font-size: smaller;
+}
+
+nav {
+  background-color: #A67B5C;
+  border-radius: 16px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+header h1 {
+  color: #D0C59A;
+  text-align: center;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+/* = NAVIGATION = */
+nav ul {
+  list-style-type: none;
+  background-color: #417154;
+  border: 3px dashed #D0C59A;
+  border-radius: 20px;
+  font-family: fantasy;
+  font-weight: lighter;
+  padding: 15px;
+
+}
+
+nav ul li {
+  display: inline;
+  border-right: 2px solid #D0C59A;
+  padding-right: 15px;
+  padding-left: 15px;
+  font-size: large;
+}
+
+ul {
+  background-color: #f0d6b1;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  border-radius: 20px;
+  padding-right: 5px;
+  padding-left: 30px;
+
+}
+
+nav ul li:last-child {
+  border-right: none;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #e0d5d9;
+}
+
+
+nav li.selected {
+  color: #83b48c;
+}
+
+nav li a:hover {
+  text-decoration: underline;
+}
+
+/* = FORMATTING =*/
+.tagline {
+  color: #D0C59A;
+  text-align: center;
+  font-size: smaller;
+}
+
+.add_tagline {
+  color: #c2e2c8;
+  text-align: center;
+  font-size: smaller;
+  font-style: italic;
+}
+
+.profile {
+  color: #104730;
+  text-align: center;
+  font-size: large;
+  font-weight: normal;
+  font-family: fantasy;
+  margin: 0;
+}
+
+.company {
+  color: #3a2a1e;
+  margin: 0;
+  text-align: left;
+  font-size: normal;
+  font-weight: bold;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.click {
+  color: #3a2a1e;
+  margin: 0;
+  text-align: left;
+  font-size: normal;
+  font-weight: bold;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  background: linear-gradient(90deg,
+      #6D9775,
+      #93e1b2,
+      #40d496,
+      #dbe4e0)
+}
+
+.work {
+  color: #3a2a1e;
+  margin: 0;
+  text-align: left;
+  font-size: normal;
+  font-weight: bold;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.year {
+  color: #3a2a1e;
+  margin: 0;
+  text-align: left;
+  font-size: small;
+  font-style: italic;
+  font-weight: bold;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.info {
+  color: #2f7e4f;
+  text-align: left;
+  margin: 0;
+  font-size: small;
+  font-weight: bold;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.educ {
+  color: #4b6a51;
+  text-align: left;
+  margin: 0;
+  font-size: small;
+  font-weight: bold;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+p.contact-me {
+  border: 2px dashed #cfb997;
+  border-radius: 10px;
+  padding: 15px;
+  background-color:
+    #C8B282;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+p.contact-me::before {
+  color: rgb(129, 63, 63);
+  content: "Contact Me:";
+  font-weight: bold;
+}
+
+/* = TABLE LINKS = */
+table {
+  font-size: 85%;
+  width: 100%;
+  border-collapse: collapse;
+
+}
+
+table a:link {
+  color: #104730;
+}
+
+table a:visited {
+  color: #104730
+}
+
+th,
+td {
+  border: 3px solid #417154;
+  padding: 4px;
+  text-align: left;
+}
+
+th {
+  background-color: #6D9775;
+}
+
+td {
+  background-color: #C8B282;
+}
+
+
+/* = GENERAL LINKS = */
+a:link {
+  color: #b3c1b6;
+}
+
+a:visited {
+  color: #a6f7b4;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #e8e3df
+}
+
+a:active {
+  text-decoration: underline;
+  background-color: rgb(205, 112, 112);
+  color: #e8e3df;
+}
+
+/* ---------------------------------------------------------- */
+
+/* technical stuff - set sizing to border
+box method */
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+/* images */
+img.small {
+  height: 200px;
+  margin-bottom: 24px;
+  margin-right: 24px;
+  width: 50%;
+}
+
+img.medium {
+  max-width: 360px;
+  width: 85%;
+}
+
+img.large {
+  width: 100%;
+}
+
+
+header p {
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+
+footer p.copyright {
+  float: left;
+  font-style: italic;
+  color: #f1eeeb;
+  font-size: smaller;
+}
+
+footer p.contact {
+  text-align: right;
+  color: #f1eeeb;
+  font-size: smaller;
+}
+
+body.section.img {
+  border: 2px solid gray;
+  border-radius: 16px;
+}
+
+/* = Media Queries = */
+
+@media all and (min-width: 600px) {
+  article {
+    float: right;
+    width: 62%;
+  }
+
+  @media all and (max-width: 600px) {
+    nav ul li {
+      display: block;
+      border-right: none;
+      padding: 8px;
+    }
+  }
+
+  aside {
+    padding: 15px;
+    float: left;
+    border-top: 2px solid black;
+    padding-top: 2px;
+    width: 32%;
+  }
+
+  aside hr {
+    border: none;
+    border-top: 1px solid #ccc;
+    margin: 10px;
+  }
+
+  footer {
+    font-size: 0.85rem;
+    padding: 8px 10px;
+  }
+
+}
+
+/* = Hobbies and Interests Formatting = */
+
+#hobbies {
+  padding: 20px;
+}
+
+.hobby-container {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.hobby {
+  flex: 1 1 250px;
+  background-color: #8db895;
+  padding: 15px;
+  border-radius: 10px;
+  width: 30%;
+  text-align: center;
+}
+
+.hobby img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  cursor: pointer;
+  flex-wrap: wrap;
+  border-radius: 10px;
+}
+
+
+.funfact {
+  background-color: #D0C59A;
+  padding: 15px;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+.funfact-content {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.funfact-text {
+  flex: 2;
+}
+
+.funfact-image {
+  flex: 1;
+  text-align: center;
+}
+
+.funfact-image img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  cursor: pointer;
+}
