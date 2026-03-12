@@ -12,4 +12,4 @@ Open `index.html` in a browser to view the website.
 
 ## Links
 - GitHub Repository: (https://github.com/stldsm27/My-Personal-Porfolio)
-- Live Demo: ()
+- Live Demo: (https://stldsm27.github.io/My-Personal-Porfolio/)
